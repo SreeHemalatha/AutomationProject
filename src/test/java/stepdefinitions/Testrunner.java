@@ -4,8 +4,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\resources\\features\\login.feature",glue=
-{"src\\test\\java\\stepdefinitions\\Loginsteps.java"},
+@CucumberOptions(features="src\\test\\resources\\features",glue=
+{"src\\test\\java\\stepdefinitions"},
 monochrome=true,
 plugin= {"pretty","junit:target/JUnitReports/report.xml",
 "json:target/JSONreport/report.json",
