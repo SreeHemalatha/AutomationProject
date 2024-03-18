@@ -12,7 +12,7 @@ public class Urllsteps {
 	@Given("user is on the chrome browser")
 	public void browser_is_open() {
 	 System.out.println("Inside step - browser is open ");
-	 System.setProperty("webdriver.chrome.driver","D:\\Testing_training\\java-selenium\\cucumber2\\target\\drivers\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver","D:\\Testing_training\\java-selenium\\FinalProject\\target\\drivers\\chromedriver.exe");
 			  driver = new ChromeDriver();
 			  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 
