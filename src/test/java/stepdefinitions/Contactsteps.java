@@ -12,16 +12,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-import com.pages.Contactpage;
+import com.pages.ContactPage;
 import com.utility.Excelreader;
-import org.openqa.selenium.By;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Contactsteps {
-	private Contactpage contactPage;
+	private ContactPage contactPage;
 	WebDriver driver;
 
 	@Given("user navigates to contact page")
@@ -33,7 +32,7 @@ public class Contactsteps {
 		Thread.sleep(2000);
 		WebElement element = driver.findElement(By.xpath("//*[@id=\"navbarExample\"]/ul/li[2]/a"));
 		element.click();
-		contactPage = new Contactpage(driver);
+		contactPage = new ContactPage(driver);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 

@@ -5,8 +5,12 @@ import static org.junit.Assert.assertEquals;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.en.And;
-public class Facebooksteps {
+
+/*
+This file is to implement step definitions for Login feature
+ */
+
+public class FacebookSteps {
 	WebDriver driver = null;
     @Given("Browser is open.")
  public void Browser_is_open(){

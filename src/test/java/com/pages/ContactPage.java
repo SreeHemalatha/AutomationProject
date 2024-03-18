@@ -4,14 +4,14 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Contactpage {
+public class ContactPage {
 	private WebDriver driver;
 	private By contactEmail = By.id("recipient-email");
 	private By contactName = By.id("recipient-name");
 	private By messageText = By.id("message-text");
 	private By sendButton = By.xpath("//*[@id=\"exampleModal\"]/div/div/div[3]/button[2]");
 
-	public Contactpage(WebDriver driver) {
+	public ContactPage(WebDriver driver) {
 		this.driver = driver;
 
 	}

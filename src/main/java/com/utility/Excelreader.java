@@ -15,6 +15,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.NumberToTextConverter;
 
+/*
+ * This is a utility class which contains methods to read data from excel file
+ */
 public class Excelreader {
 	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
 			throws InvalidFormatException, IOException {

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-16T18:14:44 CDT" name="Default suite" finished-at="2024-03-16T18:15:07 CDT" duration-ms="23220">
+  <suite started-at="2024-03-18T18:15:32 CDT" name="Default suite" finished-at="2024-03-18T18:15:37 CDT" duration-ms="5565">
     <groups>
     </groups>
-    <test started-at="2024-03-16T18:14:44 CDT" name="Default test" finished-at="2024-03-16T18:15:07 CDT" duration-ms="23220">
-      <class name="stepdefinitions.Signupfeatureteps">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:stepdefinitions.Signupfeatureteps@470734c3]" started-at="2024-03-16T18:14:44 CDT" name="BeforeMethod" finished-at="2024-03-16T18:14:52 CDT" duration-ms="8343" status="PASS">
+    <test started-at="2024-03-18T18:15:32 CDT" name="Default test" finished-at="2024-03-18T18:15:37 CDT" duration-ms="5565">
+      <class name="stepdefinitions.SignupFeatureSteps">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:stepdefinitions.SignupFeatureSteps@470734c3]" started-at="2024-03-18T18:15:32 CDT" name="BeforeMethod" finished-at="2024-03-18T18:15:36 CDT" duration-ms="4538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="username_password()[pri:0, instance:stepdefinitions.Signupfeatureteps@470734c3]" started-at="2024-03-16T18:14:52 CDT" name="username_password" finished-at="2024-03-16T18:15:07 CDT" duration-ms="14570" status="PASS">
+        <test-method signature="username_password()[pri:0, instance:stepdefinitions.SignupFeatureSteps@470734c3]" started-at="2024-03-18T18:15:36 CDT" name="username_password" finished-at="2024-03-18T18:15:37 CDT" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- username_password -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:stepdefinitions.Signupfeatureteps@470734c3]" started-at="2024-03-16T18:15:07 CDT" name="aftertest" finished-at="2024-03-16T18:15:07 CDT" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:stepdefinitions.SignupFeatureSteps@470734c3]" started-at="2024-03-18T18:15:37 CDT" name="aftertest" finished-at="2024-03-18T18:15:37 CDT" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- stepdefinitions.Signupfeatureteps -->
+      </class> <!-- stepdefinitions.SignupFeatureSteps -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

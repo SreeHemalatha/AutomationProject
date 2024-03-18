@@ -6,24 +6,30 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 
-public class Signuppage {
+/*
+ * This file contains web elements on the sign-up page
+ */
+public class SignupPage {
+	
+	//WebDriver instance
 	WebDriver driver;
 
-	public Signuppage(WebDriver driver) {
+	//constructor to initiate webdriver and page factory
+	public SignupPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements( driver, this);
 
 	}
-
+	
 	@FindBy(how=How.ID,using="sign-username")
 	 WebElement sign_username;
 	
 	@FindBy(xpath = "//*[@id=\"sign-password\"]")
 	WebElement txt_password;
 	
-	@FindBy(css = "#signInModal > div > div > div.modal-footer > button.btn.btn-primary ")
-	WebElement button;
+	public By button = By.cssSelector("#signInModal > div > div > div.modal-footer > button.btn.btn-primary ");
 
 	public void enter_username(String username) {
 		sign_username.sendKeys(username);
@@ -33,9 +39,6 @@ public class Signuppage {
 		 txt_password.sendKeys(password);
 	}
 
-	public void button() {
-		button.click();
-	}
 	public void message() {
 		Alert confirmation = driver.switchTo().alert();
 		String alerttext = confirmation.getText();
